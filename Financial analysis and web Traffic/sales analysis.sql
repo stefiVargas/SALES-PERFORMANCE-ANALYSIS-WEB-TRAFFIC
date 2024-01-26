@@ -102,10 +102,10 @@ ORDER BY MAX(o.items_purchased*o.Price_usd) DESC ;
 
 
 
--- 6. Can we know what is the release date of each product?
+-- 6. Can we know what  the release date of each product?
 
 
--- Considering that we are analyzing the data of an e-commerce we can "interpret" that the 
+-- Considering that we are analysing the data of an e-commerce we can "interpret" that the 
 -- question refers to: 1. Date on which the product was registered in the system.
 -- 2. Date on which the first marketing year is created and from which the first sale comes.
 
@@ -124,7 +124,8 @@ GROUP BY p.product_name ;
 
 
 
--- 2. When is the first marketing year created ? What is the product that generates the first sale ?
+-- 2. Date on which the first marketing year is created and from which the first sale comes.
+ -- When is the first marketing year created ? What is the product that generates the first sale ?
 
 SELECT 
 	w.user_id,
@@ -142,8 +143,7 @@ SELECT
  
  
  
--- 7.Calculates gross sales per year as well as the numerical and percentage margin 
--- each product and order it by product.
+-- 7.Calculates gross sales per year as well as the numerical and percentage margin of each product and order it by product.
 
 
 

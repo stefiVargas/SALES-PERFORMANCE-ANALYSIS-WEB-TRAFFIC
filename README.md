@@ -1,7 +1,7 @@
 
 
 # Osito Feliz Enterprise 🐼
-# Sales Performance & Web traffic analysis using SQL 💰💻 
+# Sales Performance & Web traffic analysis  💰💻 
 
 ###
 
